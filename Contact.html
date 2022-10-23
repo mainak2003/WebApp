@@ -42,43 +42,29 @@
     <!-- SWIPER JS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
 
-  <!-- Making the navbar responsive -->
-  <div class="container pt-3">
-    <div class="row">
-      <div class="col-8 d-flex justify-content-start align-items-center">
-        <i class="fas fa-code fa-2x text-warning pb-3"></i>
-        <h3 class="text-white d-inline pl-2">WebApp</h3>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active ">
-              <a class="nav-link" href="#">Testimonials</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="Contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <header class="text-gray-600 body-font head">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <span class="ml-3 text-xl navtitle">WebApp</span>
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 " href="index.html">Home</a>
+      <a class="mr-5 " href="about.html">About Us</a>
+      <a class="mr-5 " href="testimonial.html">Testimonial</a>
+      <a class="mr-5 " href="Contact.html">Contact US</a>
+    </nav>
+    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 btn-nav"> <a href="login.html"> LOGIN / SIGNUP</a>
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
   </div>
+</header>
 
 
 <section class="text-gray-600 body-font relative ">
