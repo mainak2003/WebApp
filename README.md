@@ -28,7 +28,7 @@ Project Website :         https://mainak2003.github.io/Webapp/
 
 Project Details :         Website mainly using Bootstrap, HTML, CSS and JS
 
-Project Purpose :         My first Web Development project
+Project Purpose :         Website for my Startup
 
 ________________________________________________________________________________________________________________________________
 
