@@ -1,9 +1,8 @@
 # WebApp
 
-Currently I'm in the first sem (1st year) and have learnt to make basic frontend websites. 
-This is my first Web Development Project for an startup idea!
+We small group of 1st year students are planning to launch our startup WebApp. Hence, we have build a basic frontend website for that. Any one can help us to improve our website by contributing to our project!! Thanks in Advance!!
 
-It's a small software solution providing early age startup! We make Webapps for small businesses and help them to reach more potential customers!!
+ABOUT OUR STARTUP : It's a small software solution providing early age startup! We make Webapps for small businesses and help them to reach more potential customers!!
 __________________________________________________________________________________________________________________________
 
 # Developer Information
