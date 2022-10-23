@@ -1,7 +1,9 @@
 # WebApp
 
 Currently I'm in the first sem (1st year) and have learnt to make basic frontend websites. 
-This is my first Web Development Project.
+This is my first Web Development Project for an startup idea!
+
+It's a small software solution providing early age startup! We make Webapps for small businesses and help them to reach more potential customers!!
 __________________________________________________________________________________________________________________________
 
 # Developer Information
