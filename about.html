@@ -4,7 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webapp</title>
+    <title>WebApp</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,52 +43,66 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
 
-    <link rel="stylesheet" href="./css/style.css">
-
-
 </head>
 <body>
-  <header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <span class="ml-3 text-xl">Webapp</span>
-    </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a href="test.html" class="mr-5 hover:text-gray-900">Home</a>
-      <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
-      <a class="mr-5 hover:text-gray-900">Explore</a>
-      <a class="mr-5 hover:text-gray-900">Contact US</a>
-    </nav>
-    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Get Started
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
+
+  <!-- Making the navbar responsive -->
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <i class="fas fa-code fa-2x text-warning pb-3"></i>
+        <h3 class="text-white d-inline pl-2">WebApp</h3>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>blue
+        </div>
+      </nav>
+    </div>
   </div>
-</header>
 
 
-<section class="text-gray-600 body-font overflow-hidden">
+
+<section class="text-blue-600 body-font overflow-hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap -m-12">
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">CATEGORY</span>
-        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-blue-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
-        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-blue-100 mt-auto w-full">
           <a class="text-blue-500 inline-flex items-center">Learn More
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </a>
-          <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+          <span class="text-blue-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-blue-200">
             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
               <circle cx="12" cy="12" r="3"></circle>
             </svg>1.2K
           </span>
-          <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+          <span class="text-blue-400 inline-flex items-center leading-none text-sm">
             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
             </svg>6
@@ -78,29 +111,29 @@
         <a class="inline-flex items-center">
           <img alt="blog" src="https://dummyimage.com/104x104" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
           <span class="flex-grow flex flex-col pl-4">
-            <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
-            <span class="text-gray-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
+            <span class="title-font font-medium text-blue-900">Holden Caulfield</span>
+            <span class="text-blue-400 text-xs tracking-widest mt-0.5">UI DEVELOPER</span>
           </span>
         </a>
       </div>
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-blue-50 text-blue-500 text-xs font-medium tracking-widest">CATEGORY</span>
-        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-blue-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
-        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
+        <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-blue-100 mt-auto w-full">
           <a class="text-blue-500 inline-flex items-center">Learn More
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
             </svg>
           </a>
-          <span class="text-gray-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
+          <span class="text-blue-400 mr-3 inline-flex items-center ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-blue-200">
             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
               <circle cx="12" cy="12" r="3"></circle>
             </svg>1.2K
           </span>
-          <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+          <span class="text-blue-400 inline-flex items-center leading-none text-sm">
             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;">
               <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
             </svg>6
@@ -109,8 +142,8 @@
         <a class="inline-flex items-center">
           <img alt="blog" src="https://dummyimage.com/103x103" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
           <span class="flex-grow flex flex-col pl-4">
-            <span class="title-font font-medium text-gray-900">Alper Kamu</span>
-            <span class="text-gray-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
+            <span class="title-font font-medium text-blue-900">Alper Kamu</span>
+            <span class="text-blue-400 text-xs tracking-widest mt-0.5">DESIGNER</span>
           </span>
         </a>
       </div>
