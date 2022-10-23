@@ -1,0 +1,58 @@
+header div.container {
+    color: white;
+}
+
+.navtitle {
+    color: whitesmoke;
+}
+
+.head {
+    background: radial-gradient(circle, rgba(20,20,9,1) 85%, rgba(55,16,16,1) 100%);
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(227, 57, 57);
+    
+}
+
+.btn-nav {
+    color: rgb(227, 57, 57);
+}
+
+.btn-nav:active {
+    transform: scale(0.97);
+}
+
+body {
+    background: radial-gradient(circle, rgba(20,20,9,1) 85%, rgba(55,16,16,1) 100%);
+}
+
+.title-text {
+    color: rgb(227, 57, 57);
+}
+
+.main-text {
+    color: whitesmoke;
+}
+
+.ul-head {
+    color: gray;
+}
+
+.btn-main:active {
+    transform: scale(0.97);
+}
+
+.cat-list li a{
+    color: whitesmoke;
+}
+
+.cat-list li a:hover{
+    color: rgb(227, 57, 57);
+}
+
+.foot {
+    background: radial-gradient(circle, rgba(20,20,9,1) 85%, rgba(55,16,16,1) 100%);
+}
+
