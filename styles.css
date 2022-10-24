@@ -78,7 +78,7 @@ body {
     border-radius: 20px;
   }
   
-  .main-img{
+/*   .main-img{
     height: 350px;
     margin-top: 10px;
     background-image: url(/images/2.jpg);
@@ -94,7 +94,7 @@ body {
     border-color: #0077B5;
     border-image:auto;
   }
-
+ */
   .course{
     background: var(--color-bg2);
     text-align: center;
