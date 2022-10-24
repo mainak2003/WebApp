@@ -56,3 +56,20 @@ body {
     background: radial-gradient(circle, rgba(20,20,9,1) 85%, rgba(55,16,16,1) 100%);
 }
 
+
+  .main-img{
+    height: 350px;
+    margin-top: 10px;
+    background-image: url(/images/2.jpg);
+    background-color: none;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: var(--transition);
+    box-shadow: 0 0 30px 0.1px hsla(0, 0%, 0%, 0.955);
+    border-color: #08b9b94b;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-color: #0077B5;
+    border-image:auto;
+  }
