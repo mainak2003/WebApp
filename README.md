@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 # Project Information
 
-Project Website :         https://mainak2003.github.io/Webapp/
+Project Website :         https://mainak2003.github.io/WebApp/
 
 Project Details :         Website mainly using Bootstrap, HTML, CSS and JS
 
