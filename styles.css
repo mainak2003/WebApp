@@ -28,6 +28,18 @@ body {
     background: radial-gradient(circle, rgba(20,20,9,1) 85%, rgba(55,16,16,1) 100%);
 }
 
+nav{
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+position: fixed;
+width: 100%;
+margin-top: -15px;
+padding-top: -10px;
+}
+
 .title-text {
     color: rgb(227, 57, 57);
 }
@@ -133,7 +145,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-left: 10%;
   padding-right: 10%; 
 }
