@@ -141,14 +141,52 @@ z-index: 100;
     transition: var(--transition);
     box-shadow: 0 0 30px 0.1px hsla(0, 0%, 0%, 0.955);
     border-color: #08b9b94b;
-    border-top: 2px solid;
-    border-right: 2px solid;
-    border-color: #0077B5;
+    border-top: .5px solid;
+    border-bottom: 2px solid;
+    border-right: 4px solid;
+    border-color: #b50000;
     border-image:auto;
-
-   
   }
   
+  #ani-btn3{
+  border-radius: 25px;
+  background-color: #ea1538;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  border-bottom: brown;
+  }
+
+   #ani-btn4{
+  border-radius: 25px;
+  background-color: #ea1538;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  border-bottom: brown;
+  }
+
+   #ani-btn5{
+  border-radius: 25px;
+  background-color: #ea1538;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  border-bottom: brown;
+  }
+
   .course:hover {
     background: var(--color-bg2);
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
@@ -156,6 +194,7 @@ z-index: 100;
   
   .course__info {
     padding: 2rem;
+    color: rgba(255, 255, 255, 0.603);
     
     
   }
