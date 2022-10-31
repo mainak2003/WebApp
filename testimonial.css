@@ -26,13 +26,24 @@ body {
     min-height: 100vh;
     padding-top: 5rem;
 }
-.article
-{
- 
-    margin: 1.75rem 1.25rem;
-
-}
 .card
 {
-    margin-top: 100px;
+    margin-top: 80px;
+    color: black;
+    border-radius: 20px;
+
+}
+
+.card-body{
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    border-bottom:2px solid red;
+    border-radius: 5px;
+}
+.img{
+    border-radius: 10px;
+}
+.card-title{
+    color: red;
 }
