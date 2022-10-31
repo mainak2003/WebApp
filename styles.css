@@ -2,6 +2,31 @@ header div.container {
     color: white;
 }
 
+#ani-btn1{
+  border-radius: 25px;
+  background-color: #ea1538;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: white;
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  border-bottom: brown;
+}
+
+#ani-btn2{
+  margin-left: 20px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  border-bottom: brown;
+}
+
 .navtitle {
     color: whitesmoke;
 }
