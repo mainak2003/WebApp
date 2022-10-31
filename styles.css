@@ -228,3 +228,21 @@ nav button:hover {
   transform: scale(1.3);
   cursor: pointer;
 }
+
+::-webkit-scrollbar-track
+{
+	border-radius: 5px;
+	background-color: rgba(55,16,16);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(55,16,16);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #fd1010;
+}
