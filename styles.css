@@ -2,7 +2,7 @@ header div.container {
     color: white;
 }
 
-#ani-btn1{
+.ani-btn {
   border-radius: 25px;
   background-color: #ea1538;
   padding-top: 10px;
@@ -10,21 +10,23 @@ header div.container {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 600;
-  color: white;
-  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  color: white !important;
   border-bottom: brown;
 }
 
-#ani-btn2{
+.ani-btn-white {
   margin-left: 20px;
   border-radius: 25px;
   background-color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 600;
-  color: rgb(0, 0, 0);
-  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
+  color: rgb(0, 0, 0) !important;
   border-bottom: brown;
+}
+
+.ani-btn-white:hover, .ani-btn:hover {
+  box-shadow: 2.5px 2.5px 10px 1px #ccc;
 }
 
 .navtitle {
@@ -146,45 +148,6 @@ z-index: 100;
     border-right: 4px solid;
     border-color: #b50000;
     border-image:auto;
-  }
-  
-  #ani-btn3{
-  border-radius: 25px;
-  background-color: #ea1538;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 600;
-  color: white;
-  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
-  border-bottom: brown;
-  }
-
-   #ani-btn4{
-  border-radius: 25px;
-  background-color: #ea1538;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 600;
-  color: white;
-  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
-  border-bottom: brown;
-  }
-
-   #ani-btn5{
-  border-radius: 25px;
-  background-color: #ea1538;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: 600;
-  color: white;
-  box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.437),2px 2px 5px rgba(0, 0, 0, 0.599);
-  border-bottom: brown;
   }
 
   .course:hover {
